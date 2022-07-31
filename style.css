@@ -194,11 +194,105 @@ nav{
 /*Hero end********************/
 
 
+/*Hero Mobile start********************/
+
+@media (max-width: 376px){
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 3px;
+        margin-top: 110px;
+    }
+
+    .hero-content h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        color: #fff;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    
+    .hero-content p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12.8101px;
+        padding: 0 50px;
+        color: #898CA9;
+    }
+    
+    .hero-content .btn1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12.8101px;
+        padding: 5px;
+        width: 30%;
+        margin: 0 auto;
+        border-radius: 10.5063px;
+        color: #fff;
+        background: #A259FF;
+        border-radius: 5px;
+        margin-top: 20px;
+        transition: all .5s;
+    }
+    
+}
+
+@media (max-width: 858px){
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 3px;
+        margin-top: 180px;
+    }
+
+    .hero-content h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        color: #fff;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    
+    .hero-content p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12.8101px;
+        padding: 0 50px;
+        color: #898CA9;
+    }
+    
+    .hero-content .btn1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12.8101px;
+        padding: 5px;
+        width: 30%;
+        margin: 0 auto;
+        border-radius: 10.5063px;
+        color: #fff;
+        background: #A259FF;
+        border-radius: 5px;
+        margin-top: 20px;
+        transition: all .5s;
+    }
+    
+}
+/*Hero Mobile End********************/
 
 
 
-/*Main start********************/
-/*Main start********************/
 /*Main start********************/
 /*Main start********************/
 /*Main start********************/
