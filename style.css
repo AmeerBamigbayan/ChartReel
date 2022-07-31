@@ -141,19 +141,28 @@ nav{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 0 300px;
-    margin-top: 100px;
+    padding: 0 350px;
+    margin-top: 150px;
 }
 
 .hero-content h1{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
-font-size: 45px;
-
-
+    font-size: 45px;
+    color: #fff;
+    line-height: 60px;
+    margin-bottom: 15px;
 }
 
+.hero-content p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.8101px;
+    padding: 0 50px;
+    color: #fff;
+}
 /*Hero end********************/
 
 
