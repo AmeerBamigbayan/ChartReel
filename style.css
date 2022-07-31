@@ -19,7 +19,7 @@ body{
 
 @media (max-width: 858px){
     body{
-        background: url(img/mobile-bg3.png) no-repeat center;
+        background: url(img/mobile-bg.png) no-repeat center;
         background-size: cover;
         background-position: top;
         width: 100%;
@@ -28,7 +28,7 @@ body{
 
 @media (min-width: 200px) and (max-width: 300px){
     body{
-        background: url(img/mobile-bg3.png) no-repeat center;
+        background: url(img/mobile-bg.png) no-repeat center;
         background-size: cover;
         background-position: center;
         width: 100%;
