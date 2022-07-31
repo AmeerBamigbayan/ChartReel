@@ -347,14 +347,24 @@ nav{
     }
     
 }
-
-
 /*Hero Mobile End********************/
 
+@media (min-width: 539px) and (max-width: 541px){
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 3px;
+        margin-top: 220px;
+    }
+}   
+
+/*Hero Tablet start********************/
 
 
-/*Main start********************/
-/*Main start********************/
+
+/*Hero Tablet end********************/
 /*Main start********************/
 /*Main start********************/
 /*Main end********************/
