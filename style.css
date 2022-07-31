@@ -10,7 +10,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     color: #000;
-    background: url(img/bg3.png) no-repeat center;
+    background: url(img/bg.png) no-repeat center;
     background-size: cover;
     background-position: top;
     /*height: 100vh;*/
@@ -161,7 +161,23 @@ nav{
     font-weight: 400;
     font-size: 16.8101px;
     padding: 0 50px;
+    color: #898CA9;
+}
+
+.hero-content .btn1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.8101px;
+    padding: 10px;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 10.5063px;
     color: #fff;
+    background: #A259FF;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all .5s;
 }
 /*Hero end********************/
 
