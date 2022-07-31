@@ -36,6 +36,16 @@ body{
     }
 }
 
+@media (min-width: 767px) and (max-width: 821px){
+    body{
+        background: url(img/bg.png) no-repeat center;
+        background-size: cover;
+        background-position: top;
+        width: 100%;
+        
+    }
+}
+
 /*Header start********************/
 nav{
     background: transparent;
@@ -349,6 +359,10 @@ nav{
 }
 /*Hero Mobile End********************/
 
+
+
+/*Hero Tablet start********************/
+
 @media (min-width: 539px) and (max-width: 541px){
     .hero-content{
         position: relative;
@@ -360,10 +374,47 @@ nav{
     }
 }   
 
-/*Hero Tablet start********************/
+@media (min-width: 767px) and (max-width: 821px){
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 70px;
+        margin-top: 20px;
+    }
+}   
 
+@media (min-width: 910px) and (max-width: 1200px){
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 190px;
+        margin-top: 60px;
+    }
+    .hero-content h1{
+        font-size: 35px;
+        margin-bottom: 2px;
+    }
 
+    .hero-content .btn1{
+        margin-bottom: 40px;
+    }
+}
 
+@media (min-width: 1200px) and (max-width: 1280px){
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 190px;
+        margin-top: 130px;
+    }
+
+}
 /*Hero Tablet end********************/
 /*Main start********************/
 /*Main start********************/
