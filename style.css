@@ -199,6 +199,11 @@ nav{
     margin-top: 20px;
     transition: all .5s;
 }
+
+.hero-content .btn1:hover, .hero-content .btn1:active{
+    background: #fff;
+    color: #000;
+} 
 /*Hero end********************/
 
 
