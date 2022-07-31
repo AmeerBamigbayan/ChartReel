@@ -18,11 +18,11 @@ nav{
     height: 80px;
     width: 100%;
   }
-  label.logo{
+  label.logo img{
     color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
+    width: 201.17px;
+    height: 52px;
+    padding: 15px 100px 0 100px;
     font-weight: bold;
   }
   nav ul{
@@ -58,9 +58,11 @@ nav{
     display: none;
   }
   @media (max-width: 952px){
-    label.logo{
-      font-size: 30px;
-      padding-left: 50px;
+    label.logo img{
+        padding: 22px 10px 0 30px;
+        width: 132.72px;
+        height: 35px;
+
     }
     nav ul li a{
       font-size: 16px;
