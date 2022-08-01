@@ -778,6 +778,7 @@ footer {
     text-decoration: none;
     margin-top: 20px;
     margin-bottom: 30px;
+    font-family: 'Inter';
 }
 
 footer p a{
@@ -795,7 +796,10 @@ footer p a:hover, footer p a:active{
   @media (max-width: 500px){
     footer{
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 600;
+    }
+    footer p a{
+        font-weight: 800;
     }
   }
 
