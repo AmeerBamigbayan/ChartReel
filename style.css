@@ -5,29 +5,40 @@
     padding: 0;
 }
 
-body{
+.body{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #000;
     background: url(img/bg.png) no-repeat center;
     background-size: cover;
-    background-position: top;
-    /*height: 100vh;*/
+    background-position: center;
+    height: 100vh;
     width: 100%;
 }
 
 @media (max-width: 858px){
-    body{
+    .body{
         background: url(img/mobile-bg.png) no-repeat center;
         background-size: cover;
         background-position: top;
         width: 100%;
+        height: 90vh;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 414px){
+    .body{
+        background: url(img/mobile-bg.png) no-repeat center;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 70vh;
     }
 }
 
 @media (min-width: 200px) and (max-width: 300px){
-    body{
+    .body{
         background: url(img/mobile-bg.png) no-repeat center;
         background-size: cover;
         background-position: center;
@@ -37,11 +48,12 @@ body{
 }
 
 @media (min-width: 767px) and (max-width: 821px){
-    body{
+    .body{
         background: url(img/bg.png) no-repeat center;
         background-size: cover;
         background-position: top;
         width: 100%;
+        height: 40vh;
         
     }
 }
@@ -272,7 +284,7 @@ nav{
         flex-direction: column;
         text-align: center;
         padding: 0 3px;
-        margin-top: 120px;
+        margin-top: 170px;
     }
 
     .hero-content h1{
@@ -364,6 +376,9 @@ nav{
 /*Hero Tablet start********************/
 
 @media (min-width: 539px) and (max-width: 541px){
+    .body{
+        height: 100vh;
+    }
     .hero-content{
         position: relative;
         display: flex;
@@ -374,7 +389,7 @@ nav{
     }
 }   
 
-@media (min-width: 767px) and (max-width: 821px){
+@media (min-width: 767px) and (max-width: 819px){
     .hero-content{
         position: relative;
         display: flex;
@@ -385,7 +400,17 @@ nav{
     }
 }   
 
-@media (min-width: 910px) and (max-width: 1200px){
+@media (min-width: 819px) and (max-width: 820px){
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 70px;
+        margin-top: 70px;
+    }
+}  
+@media (min-width: 913px) and (max-width: 1200px){
     .hero-content{
         position: relative;
         display: flex;
@@ -397,6 +422,29 @@ nav{
     .hero-content h1{
         font-size: 35px;
         margin-bottom: 2px;
+    }
+
+    .hero-content .btn1{
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 911px) and (max-width: 912px){
+    .body{
+        height: 40vh;
+    }
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 190px;
+        margin-top: 60px;
+    }
+    .hero-content h1{
+        font-size: 35px;
+        margin-bottom: 2px;
+        line-height: 50px;
     }
 
     .hero-content .btn1{
@@ -416,10 +464,51 @@ nav{
 
 }
 /*Hero Tablet end********************/
-/*Main start********************/
-/*Main start********************/
-/*Main end********************/
-/*Main end********************/
+
+
+
+/*Most Popular start********************/
+
+
+.most-popular{
+    background-color: #131722;
+    margin-top: 0px;
+    height: 100vh;
+}
+
+.most-popular h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    color: #fff;
+    line-height: 30px;
+    padding-top: 100px;
+    padding-left: 75px;
+    margin: -3px;
+}
+
+
+/*Most Popular end********************/
+
+
+
+/*Most Popular Mobile start********************/
+
+.most-popular h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    color: #fff;
+    line-height: 30px;
+    padding-top: 50px;
+    padding-left: 40px;
+    margin: -3px;
+}
+
+
+/*Most Popular Mobile end********************/
 /*Main end********************/
 /*Main end********************/
 /*Main end********************/
