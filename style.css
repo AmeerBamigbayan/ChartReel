@@ -197,7 +197,7 @@ nav{
     margin-top: 150px;
 }
 
-.hero .hero .hero-content h1{
+.hero .hero-content h1{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
@@ -698,6 +698,72 @@ nav{
     background-color: #131722;
 }
 /*Section3 mobile End********/
+
+/*Section3 Tablet Start********/
+@media (min-width: 911px) and (max-width: 1024px){
+    .section3{
+        background: #131722;
+        background-size: contain;
+        width: 100%;
+        height: auto;
+  
+    }
+    .section3 .text{
+        align-items: left;
+        text-align: left;
+        padding: 0;
+        float: none;
+        margin-left: 60px;
+        margin-top: 30px;
+        
+
+    }
+    .section3 .text h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        color: #fff;
+        line-height: 40px;
+        padding-top: 20px;
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+    .section3 .text p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #898CA9;
+        line-height: 25px;
+        padding-top: 5px;
+        padding-left: 0;
+        padding-bottom: 30px;
+    }
+    .section3 .text .btn3{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12.8101px;
+        padding: 10px 30px;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 10.5063px;
+        color: #fff;
+        background: #A259FF;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 0px;
+        transition: all .5s;
+    }
+    .section3 .img img{
+        margin-top: 20px;
+        margin-right: 100px;
+        width: 90%;
+        transform: scale(1);
+    }
+}
+/*Section3 Tablet End********/
 /*Section3 end********/
 
 /*footer start********/
