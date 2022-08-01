@@ -7,6 +7,7 @@
 body{
     overflow-x: hidden;
     width: 100%;
+    background-color: #131722;
 }
 
 .body{
@@ -478,6 +479,10 @@ nav{
     background-color: #131722;
     margin-top: 0px;
     height: auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    
 }
 
 .most-popular h1{
@@ -493,6 +498,27 @@ nav{
     margin: -3px;
 }
 
+.most-popular .btn2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.8101px;
+    padding: 10px;
+    width: 15%;
+    margin: 0 auto;
+    border-radius: 10.5063px;
+    color: #fff;
+    background: #A259FF;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all .5s;
+    
+}
+
+.most-popular .btn2:hover, .most-popular .btn2:active{
+    background: #fff;
+    color: #000;
+} 
 
 /*Most Popular end********************/
 
@@ -519,6 +545,10 @@ nav{
     padding-top: 50px;
     padding-left: 40px;
     margin: -3px;
+}
+
+.most-popular .btn2{
+    width: 30%;
 }
 
 }
