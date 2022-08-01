@@ -4,6 +4,11 @@
     margin: 0;
     padding: 0;
 }
+
+a{
+    text-decoration: none;
+  }
+
 body{
     overflow-x: hidden;
     width: 100%;
@@ -554,13 +559,15 @@ nav{
 }
 
 /*Most Popular Mobile end********************/
-/*Main end********************/
-/*Main end********************/
-/*Main end********************/
-/*Main end********************/
-/*Main end********************/
-/*Main end********************/
-/*Main end********************/
-  a{
-    text-decoration: none;
-  }
+
+/*Section3 Start********/
+.section3{
+    margin-top: 50px;
+    display: flex;
+    background: url(img/section3.png) no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 120vh;
+}
+/*Section3 end********/
+
