@@ -514,6 +514,15 @@ nav{
     padding-left: 40px;
     margin: -3px;
 }
+
+.market-overview{
+    display: none;
+
+}
+
+.market-overview-mobile{
+    display: flex;
+}
 }
 
 /*Most Popular Mobile end********************/
