@@ -477,7 +477,7 @@ nav{
 .most-popular{
     background-color: #131722;
     margin-top: 0px;
-    height: 100vh;
+    height: auto;
 }
 
 .most-popular h1{
@@ -489,6 +489,7 @@ nav{
     line-height: 30px;
     padding-top: 100px;
     padding-left: 75px;
+    padding-bottom: 100px;
     margin: -3px;
 }
 
@@ -524,15 +525,6 @@ nav{
     margin: -3px;
 }
 
-.market-overview{
-    display: none;
-
-}
-
-.market-overview-mobile{
-    display: flex;
- 
-}
 }
 
 /*Most Popular Mobile end********************/
