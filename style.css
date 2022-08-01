@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow-x: hidden;
+}
 
 .body{
     font-family: 'Inter', sans-serif;
@@ -488,13 +491,18 @@ nav{
     margin: -3px;
 }
 
+.market-overview-mobile{
+    display: none;
+ 
+}
 
 /*Most Popular end********************/
 
 
 
 /*Most Popular Mobile start********************/
-
+@media (max-width: 858px){
+   
 .most-popular h1{
     font-family: 'Inter';
     font-style: normal;
@@ -506,7 +514,7 @@ nav{
     padding-left: 40px;
     margin: -3px;
 }
-
+}
 
 /*Most Popular Mobile end********************/
 /*Main end********************/
