@@ -614,7 +614,7 @@ nav{
     background: #A259FF;
     border-radius: 5px;
     margin-top: 20px;
-    margin-left: 65px;
+    margin-left: 75px;
     transition: all .5s;
 }
 
@@ -622,5 +622,11 @@ nav{
     background: #fff;
     color: #000;
 } 
+
+.section3 .img img{
+    margin-top: 80px;
+    margin-right: 50px;
+}
+
 /*Section3 end********/
 
