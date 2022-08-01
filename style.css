@@ -6,6 +6,7 @@
 }
 body{
     overflow-x: hidden;
+    width: 100%;
 }
 
 .body{
@@ -502,7 +503,15 @@ nav{
 
 /*Most Popular Mobile start********************/
 @media (max-width: 858px){
+    body{
+        overflow-x: hidden;
+    }
    
+    .most-popular{
+        background-color: #131722;
+        margin-top: 0px;
+        height: auto;
+    }
 .most-popular h1{
     font-family: 'Inter';
     font-style: normal;
@@ -522,6 +531,7 @@ nav{
 
 .market-overview-mobile{
     display: flex;
+ 
 }
 }
 
