@@ -7,10 +7,6 @@
     <title>ChartReel - View Real-Time Prices, Charts and Analysis</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <script>
-        $(".tv-widget-watch-list__name").hide();
-        document.getElementsByClassName('.tv-widget-watch-list__name').remove();
-   </script>
 </head>
 <body>
     <!--------Header Start-->
@@ -51,14 +47,10 @@
     <!-- TradingView Widget BEGIN -->
  
 <div class="tradingview-widget-container">
-  
-    <div class="tradingview-widget-container__widget">
-    
-    </div>
-    <script type="text/javascript"  src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" >
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
     
     {
-    "tv-widget-watch-list__name": "hidden",
     "colorTheme": "dark",
     "dateRange": "12M",
     "showChart": true,
@@ -94,13 +86,9 @@
         ]
       }
     ]
- 
   }
- 
     </script>
-
   </div>
-
   <!-- TradingView Widget END -->
 
   <div class="btn2">View All</div>
