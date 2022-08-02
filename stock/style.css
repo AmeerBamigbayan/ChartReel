@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+  }
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+    background-color: #131722;
+}
+
+/*Header start********************/
+nav{
+    background: transparent;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo img{
+    color: white;
+    width: 201.17px;
+    height: 52px;
+    padding: 15px 100px 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+  
+  }
+  a.active{
+    background: #f5f5f5;
+    color: #131722;
+  }
+  a:hover{
+    background: #f5f5f5;
+    color: #A259FF;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.logo img{
+        padding: 22px 10px 0 30px;
+        width: 132.72px;
+        height: 35px;
+
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 953px) and (max-width: 1062px){
+    label.logo img{
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    
+    nav ul li{
+      margin: 0;
+        padding: 30px 0 0 0;
+
+    }
+  }
+  
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #131722;
+      top: 60px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #A259FF;
+    }
+    #check:checked ~ ul{
+      left: 0;
+      z-index: 1;
+    }
+  }
+/*Header end********************/
+
+/*Hero start********************/
+.hero{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.hero-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 350px;
+    margin-top: 120px;
+}
+
+.hero .hero-content h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    color: #fff;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.hero .hero-content p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.8101px;
+    padding: 0 50px;
+    color: #898CA9;
+}
+
+.hero-content .btn1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.8101px;
+    padding: 10px;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 10.5063px;
+    color: #fff;
+    background: #A259FF;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all .5s;
+}
+
+.hero-content .btn1:hover, .hero-content .btn1:active{
+    background: #fff;
+    color: #A259FF;
+} 
+/*Hero end********************/
+
+
+/*Hero Mobile start********************/
+@media (min-width: 200px) and (max-width: 300px){
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 01px;
+        margin-top: 60px;
+    }
+
+    .hero .hero-content h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        color: #fff;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .hero .hero-content p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12.8101px;
+        line-height: 17px;
+        padding: 0 25px;
+        color: #898CA9;
+    }
+    
+    .hero-content .btn1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12.8101px;
+        padding: 10px;
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 10.5063px;
+        color: #fff;
+        background: #A259FF;
+        border-radius: 5px;
+        margin-top: 10px;
+        transition: all .5s;
+    }
+    
+}
+
+@media (min-width: 350px) and (max-width: 376px){
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 3px;
+        margin-top:50px;
+    }
+
+    .hero .hero-content h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        color: #fff;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .hero .hero-content p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12.8101px;
+        line-height: 17px;
+        padding: 0 50px;
+        color: #898CA9;
+    }
+    
+    .hero-content .btn1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12.8101px;
+        padding: 10px;
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 10.5063px;
+        color: #fff;
+        background: #A259FF;
+        border-radius: 5px;
+        margin-top: 20px;
+        transition: all .5s;
+    }
+    
+}
+@media (min-width: 377px) and (max-width: 858px){
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 3px;
+        margin-top: 80px;
+    }
+
+    .hero .hero-content h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 33px;
+        color: #fff;
+        line-height: 30px;
+        margin-bottom: 12px;
+    }
+    
+    .hero .hero-content p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12.8101px;
+        line-height: 18px;
+        padding: 0 50px;
+        color: #898CA9;
+    }
+    
+    .hero .hero-content .btn1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12.8101px;
+        padding: 10px;
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 10.5063px;
+        color: #fff;
+        background: #A259FF;
+        border-radius: 5px;
+        margin-top: 10px;
+        transition: all .5s;
+    }
+    
+}
+/*Hero Mobile End********************/
+
+
+
+/*Hero Tablet start********************/
+
+@media (min-width: 539px) and (max-width: 541px){
+    .body{
+        height: 100vh;
+    }
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 3px;
+        margin-top: 80px;
+    }
+    .hero .hero-content p{
+        font-size: 11px;
+    }
+}   
+
+@media (min-width: 767px) and (max-width: 819px){
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 70px;
+        margin-top: 20px;
+    }
+}   
+
+@media (min-width: 819px) and (max-width: 820px){
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 70px;
+        margin-top: 70px;
+    }
+}  
+@media (min-width: 913px) and (max-width: 1200px){
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 190px;
+        margin-top: 60px;
+    }
+    .hero .hero-content h1{
+        font-size: 35px;
+        margin-bottom: 2px;
+    }
+
+    .hero-content .btn1{
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 911px) and (max-width: 912px){
+    .body{
+        height: 40vh;
+    }
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 190px;
+        margin-top: 60px;
+    }
+    .hero .hero-content h1{
+        font-size: 35px;
+        margin-bottom: 2px;
+        line-height: 50px;
+    }
+
+    .hero-content .btn1{
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1280px){
+    .hero-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 190px;
+        margin-top: 130px;
+    }
+
+}
+/*Hero Tablet end********************/
+
+
+/*Chartstart********************/
+.chart{
+    margin-top: 20px;
+}
+
+/*Chart MOBILE START********************/
+
+.chart{
+    margin-top: 50px;
+    padding: 0 5px;
+}
+
+/*Chart MOBILE end********************/
+/*Chart end********************/
+
+/*footer start********/
+footer {
+    color: #f5f5f5;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 600; 
+    padding-top: 20px;
+    text-decoration: none;
+    margin-top: 20px; 
+    margin-bottom: 30px;
+    font-family: 'Inter';
+}
+ 
+footer p a{
+    color: #A259FF;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer p a:hover, footer p a:active{
+    color: #fff;
+    background: transparent;
+}
+
+/*footer mobile start********/
+  @media (max-width: 500px){
+    footer{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    footer p a{
+        font-weight: 800;
+    }
+  }
+
+/*footer end********/
