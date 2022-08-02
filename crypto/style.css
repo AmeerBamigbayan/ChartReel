@@ -424,3 +424,19 @@ nav{
 
 }
 /*Hero Tablet end********************/
+
+
+/*Chartstart********************/
+.chart{
+    margin-top: 20px;
+}
+
+/*Chart MOBILE START********************/
+
+.chart{
+    margin-top: 50px;
+    padding: 0 5px;
+}
+
+/*Chart MOBILE end********************/
+/*Chart end********************/
