@@ -226,7 +226,7 @@ nav{
         color: #fff;
         background: #A259FF;
         border-radius: 5px;
-        margin-top: 20px;
+        margin-top: 10px;
         transition: all .5s;
     }
     
@@ -239,17 +239,17 @@ nav{
         flex-direction: column;
         text-align: center;
         padding: 0 3px;
-        margin-top: 170px;
+        margin-top:50px;
     }
 
     .hero .hero-content h1{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 900;
-        font-size: 20px;
+        font-size: 30px;
         color: #fff;
         line-height: 30px;
-        margin-bottom: 2px;
+        margin-bottom: 10px;
     }
     
     .hero .hero-content p{
