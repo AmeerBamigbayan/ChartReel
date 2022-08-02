@@ -191,17 +191,17 @@ nav{
         flex-direction: column;
         text-align: center;
         padding: 0 01px;
-        margin-top: 130px;
+        margin-top: 60px;
     }
 
     .hero .hero-content h1{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 900;
-        font-size: 20px;
+        font-size: 24px;
         color: #fff;
         line-height: 30px;
-        margin-bottom: 0px;
+        margin-bottom: 10px;
     }
     
     .hero .hero-content p{
@@ -209,7 +209,8 @@ nav{
         font-style: normal;
         font-weight: 400;
         font-size: 12.8101px;
-        padding: 0 5px;
+        line-height: 17px;
+        padding: 0 25px;
         color: #898CA9;
     }
     
@@ -219,7 +220,7 @@ nav{
         font-weight: 600;
         font-size: 12.8101px;
         padding: 10px;
-        width: 30%;
+        width: 60%;
         margin: 0 auto;
         border-radius: 10.5063px;
         color: #fff;
