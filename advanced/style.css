@@ -25,7 +25,7 @@ nav{
     color: white;
     width: 201.17px;
     height: 52px;
-    padding: 15px 100px 0 100px;
+    padding: 15px 100px 0 50px;
     font-weight: bold;
   }
   nav ul{
@@ -124,3 +124,67 @@ nav{
     }
   }
 /*Header end********************/
+
+
+/*crypto start********************/
+.details{
+  margin-top: 70px;
+  background-color: #3B3F4A;
+  padding: 10px 0px 10px 50px;
+  color: #fff;
+}
+.boxes{
+  margin: 50px auto 0 auto;
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.left{
+  float: left;
+  display: flex;
+  width: 100%;
+  margin-right: 25px;
+}
+
+.box1{
+  float: left;
+  border: 1px solid #fff;
+  padding: 150px 140px;
+  border-radius: 20px;
+  
+}
+.box2{
+  float: right;
+margin-left: 50px;
+  border: 1px solid #fff;
+  padding: 150px 140px;
+  border-radius: 20px
+  
+}
+
+.right{
+  float: right;
+  display: flex;
+  width: 100%;
+  margin-left: 25px;
+
+}
+.box3{
+  float: left;
+  border: 1px solid #fff;
+  padding: 150px 140px;
+  border-radius: 20px;
+}
+.box4{
+  float: right;
+  margin-left: 50px;
+  border: 1px solid #fff;
+  padding: 150px 140px;
+  border-radius: 20px
+  
+}
+/*crypto end********************/
