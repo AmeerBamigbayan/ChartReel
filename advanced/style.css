@@ -212,5 +212,10 @@ h3{
   
 }
 
+@media (max-width: 858px){
+   .boxes{
+    flex-direction: column;
+   }
+}
 
 /*crypto end********************/
