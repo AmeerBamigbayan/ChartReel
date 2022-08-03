@@ -140,7 +140,7 @@ nav{
   align-items: center;
   text-align: center;
   justify-content: center;
-  width: 50%;
+  width: 100%;
 }
 
 .left{
@@ -153,9 +153,34 @@ nav{
 .box1{
   float: left;
   border: 1px solid #fff;
-  padding: 150px 140px;
+  padding: 90px 75px;
   border-radius: 20px;
-  
+}
+
+.box1 h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19.3952px;
+  line-height: 130%;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.box1 .btn{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.8101px;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 10.5063px;
+  color: #fff;
+  background: #A259FF;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: all .5s;
+
 }
 .box2{
   float: right;
