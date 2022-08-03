@@ -133,15 +133,6 @@ nav{
   padding: 10px 0px 10px 50px;
   color: #fff;
 }
-.boxes{
-  margin: 50px auto 0 auto;
-  display: flex;
-  padding: 0px;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  width: 80%;
-}
 
 
 h1{
@@ -180,30 +171,25 @@ h3{
 
 }
 
-.left{
-  float: left;
+.boxes{
+  margin: 50px auto 0 auto;
   display: flex;
-  width: 50%;
-  margin-right: 100px;
+  padding: 0px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
 }
 
-
-.right{
-  float: right;
-  display: flex;
-
-}
 .box1{
-  float: left;
-  width: 50%;
-  margin-right: 40px;
+  margin: 10px;
   border: 1px solid #fff;
   padding: 50px 80px;
   border-radius: 20px;
 }
 
 .box2{
-  float: right;
+  margin: 10px;
   border: 1px solid #fff;
   padding: 50px 80px;
   border-radius: 20px;
@@ -211,15 +197,14 @@ h3{
 }
 
 .box3{
-  float: left;
-  width: 50%;
-  margin-right: 40px;
+
+  margin: 10px;
   border: 1px solid #fff;
   padding: 50px 80px;
   border-radius: 20px;
 }
 .box4{
-  float: right;
+  margin: 10px;
   border: 1px solid #fff;
   padding: 50px 80px;
   border-radius: 20px;
@@ -227,6 +212,5 @@ h3{
   
 }
 
-@media (max-width: 858px){
 
 /*crypto end********************/
