@@ -136,7 +136,7 @@ nav{
 .boxes{
   margin: 50px auto 0 auto;
   display: flex;
-  padding: 0 10px;
+  padding: 0 40px;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -147,17 +147,17 @@ nav{
   float: left;
   display: flex;
   width: 100%;
-  margin-right: 25px;
+
 }
 
 .box1{
   float: left;
   border: 1px solid #fff;
-  padding: 90px 75px;
+  padding: 50px 60px;
   border-radius: 20px;
 }
 
-.box1 h1{
+h1{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 800;
@@ -167,7 +167,17 @@ nav{
   color: #fff;
 }
 
-.box1 .btn{
+h3{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.9552px;
+  line-height: 130%;
+  margin-top: 10px;
+  color: #5C5C5C;
+}
+
+.btn{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
@@ -184,32 +194,30 @@ nav{
 }
 .box2{
   float: right;
-margin-left: 50px;
   border: 1px solid #fff;
-  padding: 150px 140px;
-  border-radius: 20px
-  
+  padding: 50px 60px;
+  border-radius: 20px;
+  margin-left: 70px;
 }
 
 .right{
   float: right;
   display: flex;
   width: 100%;
-  margin-left: 25px;
 
 }
 .box3{
   float: left;
   border: 1px solid #fff;
-  padding: 150px 140px;
+  padding: 50px 60px;
   border-radius: 20px;
 }
 .box4{
   float: right;
-  margin-left: 50px;
   border: 1px solid #fff;
-  padding: 150px 140px;
-  border-radius: 20px
+  padding: 50px 60px;
+  border-radius: 20px;
+  margin-left: 70px;
   
 }
 /*crypto end********************/
