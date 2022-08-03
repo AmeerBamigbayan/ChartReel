@@ -211,7 +211,7 @@ h3{
   
 }
 
-@media (max-width: 858px){
+@media (max-width: 1100px){
    .boxes{
     flex-direction: column;
    }
