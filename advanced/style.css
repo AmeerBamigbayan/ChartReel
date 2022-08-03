@@ -136,26 +136,13 @@ nav{
 .boxes{
   margin: 50px auto 0 auto;
   display: flex;
-  padding: 0 40px;
+  padding: 0px;
   align-items: center;
   text-align: center;
   justify-content: center;
-  width: 100%;
+  width: 80%;
 }
 
-.left{
-  float: left;
-  display: flex;
-  width: 100%;
-
-}
-
-.box1{
-  float: left;
-  border: 1px solid #fff;
-  padding: 50px 60px;
-  border-radius: 20px;
-}
 
 h1{
   font-family: 'Inter';
@@ -192,32 +179,54 @@ h3{
   transition: all .5s;
 
 }
-.box2{
-  float: right;
-  border: 1px solid #fff;
-  padding: 50px 60px;
-  border-radius: 20px;
-  margin-left: 70px;
+
+.left{
+  float: left;
+  display: flex;
+  width: 50%;
+  margin-right: 100px;
 }
+
 
 .right{
   float: right;
   display: flex;
-  width: 100%;
 
 }
+.box1{
+  float: left;
+  width: 50%;
+  margin-right: 40px;
+  border: 1px solid #fff;
+  padding: 50px 80px;
+  border-radius: 20px;
+}
+
+.box2{
+  float: right;
+  border: 1px solid #fff;
+  padding: 50px 80px;
+  border-radius: 20px;
+ 
+}
+
 .box3{
   float: left;
+  width: 50%;
+  margin-right: 40px;
   border: 1px solid #fff;
-  padding: 50px 60px;
+  padding: 50px 80px;
   border-radius: 20px;
 }
 .box4{
   float: right;
   border: 1px solid #fff;
-  padding: 50px 60px;
+  padding: 50px 80px;
   border-radius: 20px;
-  margin-left: 70px;
+ 
   
 }
+
+@media (max-width: 858px){
+
 /*crypto end********************/
