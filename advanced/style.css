@@ -213,9 +213,9 @@ h3{
 
 .link{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin: 15px 10px 0 auto;
+  margin: 15px auto 0 auto;
   width: 70%;
   font-family: 'Inter';
   font-style: normal;
@@ -226,7 +226,7 @@ h3{
 .link img{
   width: 12%;
   height: 12%;
-  margin-right: 18px;
+  margin-left: 8px;
 }
 
 .link:hover,.link:active{
@@ -247,8 +247,9 @@ h3{
     flex-direction: column;
    }
 
-   .link{
-    width: 100%;
+   .link img{
+    width: 12%;
+    height: 12%;
     
    }
 }
