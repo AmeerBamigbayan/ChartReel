@@ -211,9 +211,45 @@ h3{
   
 }
 
+.link{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 10px 0 auto;
+  width: 70%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.link img{
+  width: 12%;
+  height: 12%;
+  margin-right: 18px;
+}
+
+.link:hover,.link:active{
+  transform: translateY(-5px);
+  transition: all .5s;
+  
+
+}
+.link .text{
+  color: #A259FF;
+  margin-right: 0px;
+  font-size: 12px;
+}
+
+
 @media (max-width: 1100px){
    .boxes{
     flex-direction: column;
+   }
+
+   .link{
+    width: 100%;
+    
    }
 }
 
