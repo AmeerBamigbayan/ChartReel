@@ -168,6 +168,7 @@ h3{
   border-radius: 5px;
   margin-top: 20px;
   transition: all .5s;
+  cursor: pointer;
 }
 
 .btn:active, .btn:hover{
