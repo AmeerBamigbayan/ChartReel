@@ -168,7 +168,11 @@ h3{
   border-radius: 5px;
   margin-top: 20px;
   transition: all .5s;
+}
 
+.btn:active, .btn:hover{
+   color: #A259FF;
+   background: #fff;
 }
 
 .boxes{
