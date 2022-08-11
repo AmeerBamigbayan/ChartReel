@@ -125,14 +125,14 @@ nav{
   }
 /*Header end********************/
 
-.bio-mobile{
+.bio-mobile, .analysis-mobile{
     display: none;
 }
 @media (max-width: 500px){
-    .bio{
+    .bio, .analysis{
         display: none;
     }
-    .bio-mobile{
+    .bio-mobile, .analysis-mobile{
         display: block;
     }
 }
