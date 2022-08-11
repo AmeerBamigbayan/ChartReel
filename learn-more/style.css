@@ -125,7 +125,17 @@ nav{
   }
 /*Header end********************/
 
-
+.bio-mobile{
+    display: none;
+}
+@media (max-width: 500px){
+    .bio{
+        display: none;
+    }
+    .bio-mobile{
+        display: block;
+    }
+}
 /*footer start********/
 footer {
     color: #f5f5f5;
