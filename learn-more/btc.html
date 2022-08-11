@@ -27,8 +27,81 @@
         <li><a class="active" href="advanced.html">Advanced Charts</a></li>
       </ul>
     </nav>
-
-
-    
+<br>
+<br>
+<br>
+<center>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div id="tradingview_ade1c"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script type="text/javascript">
+    new TradingView.MediumWidget(
+    {
+    "symbols": [
+      [
+        "BITSTAMP:BTCUSD|12M"
+      ]
+    ],
+    "chartOnly": false,
+    "width": "100%",
+    "height": 600,
+    "locale": "en",
+    "colorTheme": "dark",
+    "autosize": true,
+    "showVolume": false,
+    "hideDateRanges": false,
+    "scalePosition": "right",
+    "scaleMode": "Normal",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+    "noTimeScale": false,
+    "valuesTracking": "1",
+    "chartType": "line",
+    "fontColor": "#787b86",
+    "gridLineColor": "rgba(240, 243, 250, 0.06)",
+    "backgroundColor": "#131722",
+    "container_id": "tradingview_ade1c"
+  }
+    );
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+ <br>
+ <br>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+    {
+    "width": "100%",
+    "height": 200,
+    "colorTheme": "dark",
+    "isTransparent": true,
+    "symbol": "BITSTAMP:BTCUSD",
+    "locale": "en"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+<br>
+<br>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+    {
+    "interval": "1m",
+    "width": "100%",
+    "isTransparent": true,
+    "height": 450,
+    "symbol": "BITSTAMP:BTCUSD",
+    "showIntervalTabs": true,
+    "locale": "en",
+    "colorTheme": "dark"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+</center>
 </body>
 </html>    
