@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+  }
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+    background-color: #131722;
+}
+
+/*Header start********************/
+nav{
+    background: transparent;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo img{
+    color: white;
+    width: 201.17px;
+    height: 52px;
+    padding: 15px 100px 0 50px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+  
+  }
+  a.active{
+    background: #f5f5f5;
+    color: #131722;
+  }
+  a:hover{
+    background: #f5f5f5;
+    color: #A259FF;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.logo img{
+        padding: 22px 10px 0 30px;
+        width: 132.72px;
+        height: 35px;
+
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 953px) and (max-width: 1062px){
+    label.logo img{
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    
+    nav ul li{
+      margin: 0;
+        padding: 30px 0 0 0;
+
+    }
+  }
+  
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #131722;
+      top: 60px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #A259FF;
+    }
+    #check:checked ~ ul{
+      left: 0;
+      z-index: 1;
+    }
+  }
+/*Header end********************/
+
+.bio-mobile, .analysis-mobile{
+    display: none;
+}
+@media (max-width: 500px){
+    .bio, .analysis{
+        display: none;
+    }
+    .bio-mobile, .analysis-mobile{
+        display: block;
+    }
+}
+/*footer start********/
+footer {
+    color: #f5f5f5;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 600; 
+    padding-top: 20px;
+    text-decoration: none;
+    margin-top: 50px; 
+    margin-bottom: 30px;
+    font-family: 'Inter';
+  }
+  
+  footer p a{
+    color: #A259FF;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  footer p a:hover, footer p a:active{
+    color: #fff;
+    background: transparent;
+  }
+  
+  /*footer mobile start********/
+  @media (max-width: 500px){
+    footer{
+       margin-top: 10px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    footer p a{
+        font-weight: 800;
+    }
+  }
+  
+  /*footer end********/
+  
