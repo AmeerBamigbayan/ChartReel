@@ -13,5 +13,3 @@
 - TradingView Widget API
 
 # Thank you🥳
-![WhatsApp Image 2022-06-10 at 18 33 46](https://user-images.githubusercontent.com/76779409/193138925-31b6705d-0b99-4659-b149-75228820d24a.jpg)
-![WhatsApp Image 2022-06-10 at 18 33 46](https://user-images.githubusercontent.com/76779409/193139076-5fa88e8b-c744-4485-a0d7-f609b0879b7d.jpg)
